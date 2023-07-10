@@ -1,0 +1,275 @@
+ALIVE	dynamic_object.hpp	8
+ASTEROID	object.hpp	12
+ASTEROID	sprite_table_names.h	5
+Asteroid	asteroid.hpp	4
+Asteroid	asteroid.hpp	/^    Asteroid(const SDL_FRect asteroid_rect, Textur/
+BACKGROUND	play_scene.cpp	35
+BOTTOM	play_scene.cpp	32
+Button	button.hpp	4
+Button::Button	button.cpp	/^Button::Button(SDL_Renderer &render, const SDL_Rec/
+Button::Button	button.cpp	/^Button::Button(SDL_Renderer &render, const SDL_Rec/
+DESTROYED	dynamic_object.hpp	9
+DETECTED	dynamic_object.hpp	14
+DynamicObject	dynamic_object.hpp	18
+DynamicObject	dynamic_object.hpp	/^    DynamicObject(const SDL_FRect object_rect, Tex/
+EXIT	observer.hpp	5
+GAME_OVER	observer.hpp	7
+Game	game.hpp	4
+Game::Game	game.cpp	/^Game::Game()$/
+GameOverScene	game_over_scene.cpp	/^GameOverScene::GameOverScene()$/
+GameOverScene	game_over_scene.hpp	4
+LEFT	play_scene.cpp	29
+LTimer	timer.cpp	/^LTimer::LTimer()$/
+LTimer	timer.h	3
+Label	label.hpp	6
+Label::Label	label.cpp	/^Label::Label(SDL_Renderer &render, const SDL_Rect /
+MenuScene	menu_scene.cpp	/^MenuScene::MenuScene(SDL_Renderer &render)$/
+MenuScene	menu_scene.hpp	9
+Mmain.cpp	main.cpp	/^int main (int argc, char *argv[])$/
+NONE	dynamic_object.hpp	13
+NONE	observer.hpp	4
+NONE	sprite_table_names.h	11
+NUM	play_scene.cpp	41
+Object	object.hpp	15
+Object	object.hpp	/^    Object(Texture &object_texture, const SDL_FRec/
+Observer	observer.hpp	11
+Observer	observer.hpp	/^    Observer() {}$/
+PI	object.hpp	53
+PLAY	observer.hpp	6
+PLAYER	object.hpp	10
+PROJECTILE	object.hpp	11
+PROJECTILE	play_scene.cpp	37
+PlayScene	play_scene.hpp	12
+PlayScene::PlayScene	play_scene.cpp	/^PlayScene::PlayScene(SDL_Renderer &render)$/
+Player	player.hpp	6
+Player::Player	player.cpp	/^Player::Player(SDL_Renderer &render, const SDL_FRe/
+Projectile	projectile.hpp	3
+Projectile	projectile.hpp	/^    Projectile(const SDL_FRect projectile_rect, Te/
+RED_PLAYER_SHIF_LEFT	sprite_table_names.h	8
+RED_PLAYER_SHIF_MIDDLE	sprite_table_names.h	9
+RED_PLAYER_SHIF_RIGHT	sprite_table_names.h	10
+RESTART	observer.hpp	8
+RIGHT	play_scene.cpp	31
+SCORE	play_scene.cpp	40
+SHIP	play_scene.cpp	36
+Scene	scene.hpp	7
+Scene	scene.hpp	/^    Scene() $/
+SpriteSheet	sprite_sheet.hpp	8
+SpriteSheet::SpriteSheet	sprite_sheet.cpp	/^SpriteSheet::SpriteSheet(const std::filesystem::pa/
+Subject	subject.hpp	5
+Subject	subject.hpp	/^    Subject()$/
+TOP	play_scene.cpp	30
+Texture	texture.cpp	/^Texture::Texture(SDL_Renderer &render, const std::/
+Texture	texture.cpp	/^Texture::Texture(SDL_Texture &p_texture)$/
+Texture	texture.hpp	5
+Vector2D	vector2d.hpp	3
+Vector2D	vector2d.hpp	/^    Vector2D(const float p_x, const float p_y) noe/
+Widget	widget.hpp	8
+Widget	widget.hpp	/^    Widget(const SDL_Rect p_widget_rect)$/
+alive	object.hpp	19
+angle	object.hpp	18
+asteroids_asset_path	play_scene.cpp	18
+attach	subject.hpp	/^    void attach(Observer& observer)$/
+attachObserver	scene.hpp	/^    void attachObserver(Observer &observer)$/
+background	menu_scene.hpp	11
+button_color	button.hpp	5
+button_texture	button.hpp	7
+callback_function	widget.hpp	11
+checkBounds	play_scene.cpp	/^    bool checkBounds(const SDL_FRect object_rect)$/
+checkCollision	play_scene.cpp	/^void PlayScene::checkCollision(Object &object)$/
+collide	object.hpp	/^    void collide() noexcept$/
+collision	dynamic_object.hpp	12
+collision	object.hpp	20
+colors	colors.h	3
+current_scene	game.hpp	8
+damageObject	dynamic_object.hpp	/^    void damageObject(const int damage) noexcept$/
+data	widget.hpp	12
+decreaseAngle	object.hpp	/^    void decreaseAngle(const float p_angle) noexce/
+decreaseObjectVelocity	object.hpp	/^    void decreaseObjectVelocity(const float veloci/
+degreeToRadians	object.hpp	/^    constexpr double degreeToRadians(const double /
+deleteDestroyedObjects	play_scene.cpp	/^void PlayScene::deleteDestroyedObjects() noexcept$/
+detach	subject.hpp	/^    void detach(Observer &observer)$/
+detachObserver	scene.hpp	/^    void detachObserver(Observer &observer)$/
+die	esh_error.cpp	/^void die(const char *error_message)$/
+direction	object.hpp	26
+draw	asteroid.cpp	/^void Asteroid::draw(SDL_Renderer &render) noexcept/
+draw	button.cpp	/^void Button::draw(SDL_Renderer &render) noexcept$/
+draw	game_over_scene.cpp	/^void GameOverScene::draw() noexcept$/
+draw	label.cpp	/^void Label::draw(SDL_Renderer &render) noexcept$/
+draw	menu_scene.cpp	/^void MenuScene::draw(SDL_Renderer &render) noexcep/
+draw	player.cpp	/^void Player::draw(SDL_Renderer &render) noexcept$/
+draw	play_scene.cpp	/^void PlayScene::draw(SDL_Renderer &render) noexcep/
+draw	projectile.cpp	/^void Projectile::draw(SDL_Renderer &render) noexce/
+error_null_argument	texture.cpp	6
+event	observer.hpp	3
+event	observer.hpp	12
+exit_text	game_over_scene.cpp	16
+fire	player.cpp	/^void Player::fire() noexcept$/
+font	menu_scene.hpp	14
+font	play_scene.hpp	21
+font_path	menu_scene.cpp	15
+font_path	play_scene.cpp	21
+font_size	menu_scene.cpp	17
+game_over_text	game_over_scene.cpp	14
+getAngle	object.hpp	/^    double getAngle() const noexcept$/
+getEvent	observer.hpp	/^    enum event getEvent() const noexcept$/
+getHealth	dynamic_object.hpp	/^    int getHealth() const noexcept$/
+getObjectRect	object.hpp	/^    SDL_FRect getObjectRect() const noexcept$/
+getObjectType	object.hpp	/^    object_type getObjectType() const noexcept$/
+getObjectVelocity	object.hpp	/^    float getObjectVelocity() const noexcept$/
+getPartOfTexture	sprite_sheet.cpp	/^Texture &SpriteSheet::getPartOfTexture(SDL_Rendere/
+getSprite	sprite_sheet.hpp	/^    Texture &getSprite(const size_t sprite_id) con/
+getSpriteSheetTexture	sprite_sheet.hpp	/^    Texture &getSpriteSheetTexture() const noexcep/
+getStatus	dynamic_object.hpp	/^    statusOfObject getStatus() const noexcept$/
+getTexture	object.hpp	/^    Texture &getTexture() const noexcept$/
+getTexture	texture.hpp	/^    SDL_Texture &getTexture() const noexcept$/
+getTextureRect	texture.hpp	/^    SDL_Rect getTextureRect() noexcept$/
+getTicks	timer.cpp	/^Uint32 LTimer::getTicks() const$/
+getX	vector2d.hpp	/^    float getX() const noexcept$/
+getY	vector2d.hpp	/^    float getY() const noexcept$/
+globals	globals.h	5
+health	asteroid.hpp	5
+health	dynamic_object.hpp	20
+increaseAngle	object.hpp	/^    void increaseAngle(const float p_angle) noexce/
+increaseObjectVelocity	object.hpp	/^    void increaseObjectVelocity(const float veloci/
+initial_direction	player.cpp	6
+isAlive	object.hpp	/^    const bool isAlive() const noexcept$/
+isCollided	object.hpp	/^    const bool isCollided() const noexcept$/
+isMouseOnWidget	button.cpp	/^bool Button::isMouseOnWidget(const SDL_Point mouse/
+isPaused	timer.cpp	/^bool LTimer::isPaused()$/
+isStarted	timer.cpp	/^bool LTimer::isStarted()$/
+kill	object.hpp	/^    void kill() noexcept$/
+label	button.hpp	9
+label_array	play_scene.hpp	16
+label_font	label.hpp	11
+length	vector2d.hpp	/^    float length() const noexcept$/
+loadSprites	sprite_sheet.cpp	/^void SpriteSheet::loadSprites(SDL_Renderer &render/
+mPaused	timer.h	30
+mPausedTicks	timer.h	27
+mStartTicks	timer.h	24
+mStarted	timer.h	31
+move	widget.hpp	/^    virtual void move(const int x, const int y)$/
+normalize	vector2d.hpp	/^    void normalize() noexcept$/
+notify	subject.hpp	/^    void notify(const enum event event)$/
+num_rect	play_scene.cpp	26
+object_list	player.hpp	7
+object_list	play_scene.hpp	15
+object_rect	object.hpp	25
+object_type	object.hpp	9
+object_velocity	object.hpp	22
+objects	object_name_table.h	3
+observer	game.hpp	10
+observer_list	subject.hpp	6
+operator*	vector2d.hpp	/^    const Vector2D operator*(const float scalar)$/
+operator*=	vector2d.hpp	/^    Vector2D& operator*=(const float scalar)$/
+operator+	vector2d.hpp	/^    const Vector2D operator+(const Vector2D &v2) c/
+operator+=	vector2d.hpp	/^    friend Vector2D& operator+=(Vector2D &v1, Vect/
+operator-	vector2d.hpp	/^    const Vector2D operator-(const Vector2D &v2) c/
+operator-=	vector2d.hpp	/^    friend Vector2D& operator-=(Vector2D &v1, Vect/
+operator/	vector2d.hpp	/^    const Vector2D operator\/(const float scalar) c/
+operator/=	vector2d.hpp	/^    Vector2D& operator\/=(const float scalar)$/
+panic	esh_error.cpp	/^void panic(const char *error_message)$/
+path	play_scene.cpp	13
+pause	timer.cpp	/^void LTimer::pause()$/
+play_agait_text	game_over_scene.cpp	15
+play_background_path	play_scene.cpp	17
+play_callback	menu_scene.cpp	/^void MenuScene::play_callback(void *data)$/
+play_text	menu_scene.cpp	13
+proccessCollision	play_scene.cpp	/^void PlayScene::proccessCollision() noexcept $/
+proccessEvents	asteroid.cpp	/^void Asteroid::proccessEvents(SDL_Event &e) noexce/
+proccessEvents	button.cpp	/^void Button::proccessEvents(SDL_Event &e) const no/
+proccessEvents	game_over_scene.cpp	/^void GameOverScene::proccessEvents(SDL_Event &e) c/
+proccessEvents	label.cpp	/^void Label::proccessEvents(SDL_Event &e) const noe/
+proccessEvents	menu_scene.cpp	/^void MenuScene::proccessEvents(SDL_Event &e) noexc/
+proccessEvents	player.cpp	/^void Player::proccessEvents(SDL_Event &e) noexcept/
+proccessEvents	play_scene.cpp	/^void PlayScene::proccessEvents(SDL_Event &e) noexc/
+proccessEvents	projectile.cpp	/^void Projectile::proccessEvents(SDL_Event &e) noex/
+proccessScene	game.cpp	/^void Game::proccessScene(SDL_Event *e)$/
+projectile_asset_path	player.cpp	9
+projectile_asset_path	play_scene.cpp	19
+projectile_damage	projectile.hpp	4
+projectile_texture	player.hpp	8
+protected	dynamic_object.hpp	45
+quit_callback	game_over_scene.cpp	/^static void quit_callback()$/
+quit_callback	menu_scene.cpp	/^void MenuScene::quit_callback(void *data)$/
+quit_text	menu_scene.cpp	14
+radiansToDegree	object.hpp	/^    constexpr double radiansToDegree(const double /
+render	game.hpp	6
+render	play_scene.hpp	13
+renderScrollingBackground	menu_scene.cpp	/^void MenuScene::renderScrollingBackground(SDL_Rend/
+restart_game_callback	game_over_scene.cpp	/^static void restart_game_callback()$/
+run	game.cpp	/^void Game::run() noexcept$/
+running	game.hpp	5
+scene_labels	play_scene.cpp	39
+scene_log	menu_scene.cpp	19
+scene_textures	play_scene.cpp	34
+score	play_scene.hpp	23
+score_rect	play_scene.cpp	25
+score_text	play_scene.cpp	23
+scrolling_offset	menu_scene.hpp	12
+setAngle	object.hpp	/^    void setAngle(const float new_angle) noexcept$/
+setCallBackFunction	widget.hpp	/^    virtual void setCallBackFunction(std::function/
+setStatus	dynamic_object.hpp	/^    void setStatus(const statusOfObject p_status) /
+setX	vector2d.hpp	/^    void setX(const float p_x) noexcept$/
+setY	vector2d.hpp	/^    void setY(const float p_y) noexcept$/
+ship_asset_path	play_scene.cpp	16
+side	play_scene.cpp	28
+spawn_asteroids_callback	play_scene.cpp	/^Uint32 PlayScene::spawn_asteroids_callback(Uint32 /
+sprite_height	sprite_sheet.hpp	13
+sprite_sheet	play_scene.hpp	20
+sprite_sheet	sprite_sheet.hpp	10
+sprite_width	sprite_sheet.hpp	12
+start	timer.cpp	/^void LTimer::start()$/
+startGame	game.cpp	/^void Game::startGame()$/
+status	dynamic_object.hpp	22
+statusOfObject	dynamic_object.hpp	7
+std::array	menu_scene.hpp	10
+std::array	play_scene.hpp	16
+std::array	play_scene.hpp	17
+std::string	game_over_scene.cpp	12
+stop	timer.cpp	/^void LTimer::stop()$/
+subject	scene.hpp	9
+text_color	button.hpp	6
+text_color	label.hpp	7
+text_label	label.hpp	10
+text_texture	label.hpp	8
+texture	object.hpp	17
+texture	texture.hpp	6
+texture_array	play_scene.hpp	17
+texture_rect	texture.hpp	7
+texture_vector	sprite_sheet.hpp	9
+timer	play_scene.hpp	14
+timer_callback_id	play_scene.hpp	19
+title_text	menu_scene.cpp	12
+type	dynamic_object.hpp	23
+type	object.hpp	23
+uncollide	object.hpp	/^    void uncollide() noexcept$/
+unpause	timer.cpp	/^void LTimer::unpause()$/
+update	asteroid.cpp	/^void Asteroid::update(const float time_step) noexc/
+update	game_over_scene.cpp	/^void GameOverScene::update() noexcept$/
+update	menu_scene.cpp	/^void MenuScene::update() noexcept$/
+update	observer.hpp	/^    void update(const enum event p_event) noexcept/
+update	player.cpp	/^void Player::update(float time_step) noexcept$/
+update	play_scene.cpp	/^void PlayScene::update() noexcept$/
+update	projectile.cpp	/^void Projectile::update(const float time_step) noe/
+updateText	label.cpp	/^void Label::updateText(SDL_Renderer &render, const/
+velocity	player.cpp	7
+widget_array	menu_scene.hpp	10
+widget_rect	widget.hpp	10
+widget_table	widget_table_names.h	4
+window	game.hpp	7
+x	vector2d.hpp	4
+y	vector2d.hpp	4
+~Asteroid	asteroid.hpp	/^    ~Asteroid() {}$/
+~Button	button.hpp	/^    virtual ~Button()$/
+~Game	game.cpp	/^Game::~Game() $/
+~GameOverScene	game_over_scene.cpp	/^GameOverScene::~GameOverScene()$/
+~Label	label.hpp	/^    ~Label()$/
+~MenuScene	menu_scene.cpp	/^MenuScene::~MenuScene()$/
+~Object	object.hpp	/^    virtual ~Object() { }$/
+~PlayScene	play_scene.cpp	/^PlayScene::~PlayScene()$/
+~Projectile	projectile.hpp	/^    ~Projectile() {}$/
+~Scene	scene.hpp	/^    virtual ~Scene() {}$/
+~SpriteSheet	sprite_sheet.cpp	/^SpriteSheet::~SpriteSheet()$/
+~Texture	texture.hpp	/^    ~Texture()$/
+~Widget	widget.hpp	/^    virtual ~Widget() {};$/

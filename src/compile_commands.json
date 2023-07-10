@@ -1,0 +1,98 @@
+[
+  {
+    "directory": "/home/albrict/prog/space_game/debug",
+    "command": "c++ -Iesh.p -I. -I.. -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c++17 -O0 -g -fsanitize=address -fsanitize=leak -fsanitize=undefined -fsanitize=null -D_REENTRANT -MD -MQ esh.p/src_main.cpp.o -MF esh.p/src_main.cpp.o.d -o esh.p/src_main.cpp.o -c ../src/main.cpp",
+    "file": "../src/main.cpp",
+    "output": "esh.p/src_main.cpp.o"
+  },
+  {
+    "directory": "/home/albrict/prog/space_game/debug",
+    "command": "c++ -Iesh.p -I. -I.. -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c++17 -O0 -g -fsanitize=address -fsanitize=leak -fsanitize=undefined -fsanitize=null -D_REENTRANT -MD -MQ esh.p/src_game.cpp.o -MF esh.p/src_game.cpp.o.d -o esh.p/src_game.cpp.o -c ../src/game.cpp",
+    "file": "../src/game.cpp",
+    "output": "esh.p/src_game.cpp.o"
+  },
+  {
+    "directory": "/home/albrict/prog/space_game/debug",
+    "command": "c++ -Iesh.p -I. -I.. -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c++17 -O0 -g -fsanitize=address -fsanitize=leak -fsanitize=undefined -fsanitize=null -D_REENTRANT -MD -MQ esh.p/src_esh_error.cpp.o -MF esh.p/src_esh_error.cpp.o.d -o esh.p/src_esh_error.cpp.o -c ../src/esh_error.cpp",
+    "file": "../src/esh_error.cpp",
+    "output": "esh.p/src_esh_error.cpp.o"
+  },
+  {
+    "directory": "/home/albrict/prog/space_game/debug",
+    "command": "c++ -Iesh.p -I. -I.. -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c++17 -O0 -g -fsanitize=address -fsanitize=leak -fsanitize=undefined -fsanitize=null -D_REENTRANT -MD -MQ esh.p/src_graphics.cpp.o -MF esh.p/src_graphics.cpp.o.d -o esh.p/src_graphics.cpp.o -c ../src/graphics.cpp",
+    "file": "../src/graphics.cpp",
+    "output": "esh.p/src_graphics.cpp.o"
+  },
+  {
+    "directory": "/home/albrict/prog/space_game/debug",
+    "command": "c++ -Iesh.p -I. -I.. -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c++17 -O0 -g -fsanitize=address -fsanitize=leak -fsanitize=undefined -fsanitize=null -D_REENTRANT -MD -MQ esh.p/src_button.cpp.o -MF esh.p/src_button.cpp.o.d -o esh.p/src_button.cpp.o -c ../src/button.cpp",
+    "file": "../src/button.cpp",
+    "output": "esh.p/src_button.cpp.o"
+  },
+  {
+    "directory": "/home/albrict/prog/space_game/debug",
+    "command": "c++ -Iesh.p -I. -I.. -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c++17 -O0 -g -fsanitize=address -fsanitize=leak -fsanitize=undefined -fsanitize=null -D_REENTRANT -MD -MQ esh.p/src_label.cpp.o -MF esh.p/src_label.cpp.o.d -o esh.p/src_label.cpp.o -c ../src/label.cpp",
+    "file": "../src/label.cpp",
+    "output": "esh.p/src_label.cpp.o"
+  },
+  {
+    "directory": "/home/albrict/prog/space_game/debug",
+    "command": "c++ -Iesh.p -I. -I.. -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c++17 -O0 -g -fsanitize=address -fsanitize=leak -fsanitize=undefined -fsanitize=null -D_REENTRANT -MD -MQ esh.p/src_sprite_sheet.cpp.o -MF esh.p/src_sprite_sheet.cpp.o.d -o esh.p/src_sprite_sheet.cpp.o -c ../src/sprite_sheet.cpp",
+    "file": "../src/sprite_sheet.cpp",
+    "output": "esh.p/src_sprite_sheet.cpp.o"
+  },
+  {
+    "directory": "/home/albrict/prog/space_game/debug",
+    "command": "c++ -Iesh.p -I. -I.. -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c++17 -O0 -g -fsanitize=address -fsanitize=leak -fsanitize=undefined -fsanitize=null -D_REENTRANT -MD -MQ esh.p/src_scene.cpp.o -MF esh.p/src_scene.cpp.o.d -o esh.p/src_scene.cpp.o -c ../src/scene.cpp",
+    "file": "../src/scene.cpp",
+    "output": "esh.p/src_scene.cpp.o"
+  },
+  {
+    "directory": "/home/albrict/prog/space_game/debug",
+    "command": "c++ -Iesh.p -I. -I.. -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c++17 -O0 -g -fsanitize=address -fsanitize=leak -fsanitize=undefined -fsanitize=null -D_REENTRANT -MD -MQ esh.p/src_play_scene.cpp.o -MF esh.p/src_play_scene.cpp.o.d -o esh.p/src_play_scene.cpp.o -c ../src/play_scene.cpp",
+    "file": "../src/play_scene.cpp",
+    "output": "esh.p/src_play_scene.cpp.o"
+  },
+  {
+    "directory": "/home/albrict/prog/space_game/debug",
+    "command": "c++ -Iesh.p -I. -I.. -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c++17 -O0 -g -fsanitize=address -fsanitize=leak -fsanitize=undefined -fsanitize=null -D_REENTRANT -MD -MQ esh.p/src_menu_scene.cpp.o -MF esh.p/src_menu_scene.cpp.o.d -o esh.p/src_menu_scene.cpp.o -c ../src/menu_scene.cpp",
+    "file": "../src/menu_scene.cpp",
+    "output": "esh.p/src_menu_scene.cpp.o"
+  },
+  {
+    "directory": "/home/albrict/prog/space_game/debug",
+    "command": "c++ -Iesh.p -I. -I.. -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c++17 -O0 -g -fsanitize=address -fsanitize=leak -fsanitize=undefined -fsanitize=null -D_REENTRANT -MD -MQ esh.p/src_scene_manager.cpp.o -MF esh.p/src_scene_manager.cpp.o.d -o esh.p/src_scene_manager.cpp.o -c ../src/scene_manager.cpp",
+    "file": "../src/scene_manager.cpp",
+    "output": "esh.p/src_scene_manager.cpp.o"
+  },
+  {
+    "directory": "/home/albrict/prog/space_game/debug",
+    "command": "c++ -Iesh.p -I. -I.. -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c++17 -O0 -g -fsanitize=address -fsanitize=leak -fsanitize=undefined -fsanitize=null -D_REENTRANT -MD -MQ esh.p/src_window.cpp.o -MF esh.p/src_window.cpp.o.d -o esh.p/src_window.cpp.o -c ../src/window.cpp",
+    "file": "../src/window.cpp",
+    "output": "esh.p/src_window.cpp.o"
+  },
+  {
+    "directory": "/home/albrict/prog/space_game/debug",
+    "command": "c++ -Iesh.p -I. -I.. -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c++17 -O0 -g -fsanitize=address -fsanitize=leak -fsanitize=undefined -fsanitize=null -D_REENTRANT -MD -MQ esh.p/src_player.cpp.o -MF esh.p/src_player.cpp.o.d -o esh.p/src_player.cpp.o -c ../src/player.cpp",
+    "file": "../src/player.cpp",
+    "output": "esh.p/src_player.cpp.o"
+  },
+  {
+    "directory": "/home/albrict/prog/space_game/debug",
+    "command": "c++ -Iesh.p -I. -I.. -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c++17 -O0 -g -fsanitize=address -fsanitize=leak -fsanitize=undefined -fsanitize=null -D_REENTRANT -MD -MQ esh.p/src_timer.cpp.o -MF esh.p/src_timer.cpp.o.d -o esh.p/src_timer.cpp.o -c ../src/timer.cpp",
+    "file": "../src/timer.cpp",
+    "output": "esh.p/src_timer.cpp.o"
+  },
+  {
+    "directory": "/home/albrict/prog/space_game/debug",
+    "command": "c++ -Iesh.p -I. -I.. -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c++17 -O0 -g -fsanitize=address -fsanitize=leak -fsanitize=undefined -fsanitize=null -D_REENTRANT -MD -MQ esh.p/src_resource_manager.cpp.o -MF esh.p/src_resource_manager.cpp.o.d -o esh.p/src_resource_manager.cpp.o -c ../src/resource_manager.cpp",
+    "file": "../src/resource_manager.cpp",
+    "output": "esh.p/src_resource_manager.cpp.o"
+  },
+  {
+    "directory": "/home/albrict/prog/space_game/debug",
+    "command": "c++ -Iesh.p -I. -I.. -I/usr/include/SDL2 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c++17 -O0 -g -fsanitize=address -fsanitize=leak -fsanitize=undefined -fsanitize=null -D_REENTRANT -MD -MQ esh.p/src_projectile.cpp.o -MF esh.p/src_projectile.cpp.o.d -o esh.p/src_projectile.cpp.o -c ../src/projectile.cpp",
+    "file": "../src/projectile.cpp",
+    "output": "esh.p/src_projectile.cpp.o"
+  }
+]
