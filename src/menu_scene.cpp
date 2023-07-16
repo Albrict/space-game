@@ -4,7 +4,6 @@
 #include "button.hpp"
 #include "globals.h"
 #include "menu_scene.hpp"
-#include "game.hpp"
 #include "colors.h"
 
 namespace {
