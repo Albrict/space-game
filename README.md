@@ -7,7 +7,7 @@
  - Implemented scene system
  - Learned some parts of STL
  - Learned how to organize base game engine
-
+ - Learned how to use Meson build system
 
 Despite that, the code is pretty messy, so be warned.
 ## Some gameplay footage
